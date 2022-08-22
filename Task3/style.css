@@ -1,0 +1,70 @@
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+#results div {
+  display: none;
+}
+
+section#modal {
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #c8c8c8;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+select {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #c8c8c8;
+  text-align: left;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+label {
+  width: 100%;
+  float: left;
+  text-align: left;
+  padding: 15px 0 10px 0;
+}
+
+button#filter {
+  background: #4881ff;
+  color: #fff;
+  border: none;
+  width: 120px;
+  text-align: center;
+  border-radius: 6px;
+  margin: 20px 0 0 0;
+  cursor: pointer;
+  height: 40px;
+}
+
+div#results {
+  margin-top: 20px;
+}
+
+div#results div {
+  font-size: 16px;
+  margin: 4px 0;
+}
+
+@media only screen and (max-width: 500px) {
+  section#modal {
+    width: 100%;
+    padding: 30px 0;
+  }
+}

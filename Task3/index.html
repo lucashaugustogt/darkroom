@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task3 - Javascript</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+
+<body>
+  <h1>Task3 - Filter Type/Category</h1>
+
+  <section id="modal">
+    <select name="filter_category">
+      <option selected value="">Select Category</option>
+      <option value="cat 1">Category 1</option>
+      <option value="cat 2">Category 2</option>
+      <option value="cat 3">Category 3</option>
+    </select>
+
+    <select name="filter_type">
+      <option selected value="">Select Type</option>
+      <option value="type 3">Type 3</option>
+      <option value="type 5">Type 5</option>
+      <option value="type 2">Type 2</option>
+    </select>
+
+    <button id="filter">Apply Filter</button>
+
+    <div id="results">
+      <div data-category="cat 1" data-type="type 3">EL 2</div>
+      <div data-category="cat 2" data-type="type 5">EL 3</div>
+      <div data-category="cat 3" data-type="type 5">EL 4</div>
+      <div data-category="cat 1" data-type="type 2">EL 5</div>
+    </div>
+
+  </section>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
